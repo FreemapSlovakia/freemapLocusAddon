@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Freemap Locus Addon</string>
+    <string name="route_type_prompt">Zvoľ spôsob presunu</string>
+    <string-array name="route_types">
+        <item >Auto</item>
+        <item >Bicykel</item>
+        <item >Pešo</item>
+        <item >Turistika</item>
+    </string-array>
+    <string name="detail_changes">Zmeny</string>
+    <string name="detail_date">Dátum</string>
+    <string name="detail_description">Popis</string>
+    <string name="detail_version">Verzia</string>
+    <string name="detail_name">Názov</string>
+    <string name="detail_install">Inštaluj</string>
+    <string name="detail_update">Aktualizuj</string>
+    <string name="detail_reinstall">Preinštaluj</string>
+    <string name="detail_delete">Zmaž</string>
+    <string name="detail_delete_confirm_title">Potvrdenie zmazania</string>
+    <string name="detail_delete_confirm_message">Naozaj chcete zmazať túto položku?</string>
+    <string name="planner_points">Body:</string>
+    <string name="planner_fastest">Najrýchlejšia</string>
+    <string name="planner_save">Ulož</string>
+    <string name="planner_clear">Vymaž</string>
+    <string name="planner_findTheRoute">Nájdi cestu</string>
+    <string name="planner_addPoint">Pridaj bod</string>
+    <string name="poiSearch_name">Názov</string>
+    <string name="poiSearch_search">Hľadaj</string>
+    <string name="main_routePlanner">Vyhľadanie trasy</string>
+    <string name="main_poiSearch">Vyhľadanie POI</string>
+    <string name="main_mapManager">Správca máp a štýlov</string>
+    <string name="main_menu">Freemap Locus Addon</string>
+    <string name="button_cancel">Zruš sťahovanie</string>
+    <string name="update_available">Nové aktualizácie</string>
+    <string name="new_available_detail">Novinka na stiahnutie: %s</string>
+    <string name="update_available_detail">Dostupná aktualizácia pre %s</string>
+    <string name="update_available_text">Dostupná mapová aktualizácia.</string>
+</resources>

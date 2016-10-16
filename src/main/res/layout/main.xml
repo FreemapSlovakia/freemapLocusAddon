@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:text="@string/planner_points"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ListView
+        android:id="@+id/points"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Spinner
+            android:id="@+id/spinner_routeType"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:entries="@array/route_types"
+            android:prompt="@string/route_type_prompt" />
+
+        <CheckBox
+            android:id="@+id/checkBox_fastest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/planner_fastest" />
+
+        <CheckBox
+            android:id="@+id/checkBox_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/planner_save" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btn_addAnotherPoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/planner_addPoint" />
+
+        <Button
+            android:id="@+id/btn_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:text="@string/planner_clear" />
+
+        <Button
+            android:id="@+id/btn_calculate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:text="@string/planner_findTheRoute" />
+    </LinearLayout>
+
+</LinearLayout>

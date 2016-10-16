@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Freemap Locus Addon</string>
+    <string name="route_type_prompt">Select a route type</string>
+    <string-array name="route_types">
+        <item >Car</item>
+        <item >Bicycle</item>
+        <item >Walking</item>
+        <item >Hiking</item>
+    </string-array>
+    <string name="detail_changes">Changes</string>
+    <string name="detail_date">Date</string>
+    <string name="detail_description">Description</string>
+    <string name="detail_version">Version</string>
+    <string name="detail_name">Name</string>
+    <string name="detail_install">Install</string>
+    <string name="detail_update">Update</string>
+    <string name="detail_reinstall">Reinstall</string>
+    <string name="detail_delete">Delete</string>
+    <string name="detail_delete_confirm_title">Delete confirmation</string>
+    <string name="detail_delete_confirm_message">Are you sure do delete this item?</string>
+    <string name="planner_points">Points:</string>
+    <string name="planner_fastest">Fastest</string>
+    <string name="planner_save">Save</string>
+    <string name="planner_clear">Clear</string>
+    <string name="planner_findTheRoute">Find the Route</string>
+    <string name="planner_addPoint">Add Point</string>
+    <string name="poiSearch_name">Name</string>
+    <string name="poiSearch_search">Search</string>
+    <string name="main_routePlanner">Route Planner</string>
+    <string name="main_poiSearch">POI Search</string>
+    <string name="main_mapManager">Map &amp; Style Manager</string>
+    <string name="main_menu">Freemap Locus Addon</string>
+    <string name="button_cancel">Cancel Download</string>
+    <string name="update_available">New updates available</string>
+    <string name="new_available_detail">New stuff to install: %s</string>
+    <string name="update_available_detail">Update available for %s</string>
+    <string name="update_available_text">Map update available.</string>
+</resources>
